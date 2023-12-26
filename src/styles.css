@@ -65,3 +65,16 @@ div button {
     border: 1px solid black;
     width: fit-content;
 }
+
+.title {
+    color: #007AA3;
+    text-decoration: underline;
+}
+
+.fancy {
+    font-family: 'Georgia';
+}
+
+.cursive {
+    font-style: italic;
+}
