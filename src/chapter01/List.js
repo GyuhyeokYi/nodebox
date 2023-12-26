@@ -2,7 +2,8 @@ import { people } from "./data";
 import { getIamgeUrl } from "./util";
 
 export default function List() {
-    const listItems = people.map(person =>
+    const chemists = people.filter(person => person.profession === 'chemist')
+    const listItems = chemists.map(person =>
         <li key={person.id}>
             <img
                 className="avatar"
@@ -13,6 +14,9 @@ export default function List() {
                 <b>{person.name}:</b>
                 {' ' + person.profession + ' '}
                 known for {person.accomplishment}
+            </p>
+            <p>
+                {self.crypto.randomUUID()}
             </p>
         </li>
         )
