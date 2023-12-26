@@ -1,0 +1,19 @@
+.Toolbar {
+    background: #aaa;
+    padding: 5px;
+    margin: 5px 0;
+    width: fit-content;
+}
+
+h3 {
+    margin-top: revert;
+}
+
+.Page {
+    display: flex;
+    gap: 10px;
+}
+
+.Gallery {
+    width: 50%;
+}
